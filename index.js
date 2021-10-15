@@ -12,7 +12,7 @@ class color{
         if(value[3]<0 || value[3]>1){throw new Error('wrong apacity');}
         if(!Array.isArray(value)){throw new Error('incorrect data format')}
         this.value = value
-        console.log(`rgbo: ${value}`)
+        console.log(`rgba: ${value}`)
     }
   
 }
