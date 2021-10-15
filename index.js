@@ -9,7 +9,7 @@ class color{
                 throw new Error('wrong color format')
             }
         }
-        if(value[3]<0 || value[3]>1){throw new Error('wrong apacity');}
+        if(value[3]<0 || value[3]>1){throw new Error('wrong opacity');}
         if(!Array.isArray(value)){throw new Error('incorrect data format')}
         this.value = value
         console.log(`rgba: ${value}`)
